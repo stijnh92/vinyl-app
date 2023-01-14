@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('slider') }}
+{% endblock %}
+
+{% block body %}
+    <div id="root" class="cards-container"></div>
+{% endblock %}
